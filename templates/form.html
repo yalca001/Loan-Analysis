@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loan Approval Prediction Form Upload </title>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">       
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Loan Approval Prediction
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="container" style="padding-bottom: 40px;">
+        <div class="row">
+            <div class="col-md-3 col-md 12">
+                <div class="loan-approval text-center">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Loan Application Form</h3>
+                            <div class="content">
+                                <div class="panel-body1">
+                                    <br>
+                                    <p>Need a Loan? Enter Information and Submit Form</p>
+                                    <form method='post'>
+                                     <form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data"></form>
+                                            <form method="POST" action="" enctype="multipart/form-data"></form>
+                                            <form action="/result" method="POST"></form>
+                                            <label for="name">Name</label>
+                                            <input type="text" id="person" name="person" required>
+                                            <br>
+                                            <label for="age">Age</label>
+                                            <input type="text" id="age" name="age" required>
+                                            <br>
+                                            <label for="gender">Gender</label>
+                                            <select class="form-control" id="gender" name="gender" required>
+                                                <option value=""></option>
+                                                <option value="0">Female</option>
+                                                <option value="1">Male</option>
+                                            </select>
+                                            <br>
+                                            <label for="education">Education</label>
+                                            <select class="form-control" id="education" name="education" required>
+                                                <option value=""></option>
+                                                <option value="0">Not Graduate</option>
+                                                <option value="1">Graduate</option>
+                                            </select>
+                                            <br>
+                                            <label for="married">Marital Status</label>
+                                            <select class="form-control" id="married" name="married" required>
+                                                <option value=""></option>
+                                                <option value="0">Single</option>
+                                                <option value="1">Married</option>
+                                            </select>
+                                            <br>
+                                            <label for="income">Income</label>
+                                            <select class="form-control" id="income" name="income" required>
+                                                <option value=""></option>
+                                                <option value="0">Applicant</option>
+                                                <option value="1">Co-Applicant</option>
+                                            </select>
+                                            <br>
+                                            <label for="employment">Employment Status</label>
+                                            <select class="form-control" id="employment" name="employment" required>
+                                                <option value=""></option>
+                                                <option value="0">Self-Employed</option>
+                                                <option value="1">Not Self-Employed</option>
+                                            </select>
+                                            <br>
+                                            <label for="property-location">Property Location</label>
+                                            <select class="form-control" id="property-location" name="property-location"
+                                                required>
+                                                <option value=""></option>
+                                                <option value="0">Rural</option>
+                                                <option value="1">Urban</option>
+                                                <option value="2">Semiurban</option>
+                                            </select>
+                                            <br>
+                                            <label for="loan-term">Term</label>
+                                            <select class="form-control" id="loan-term" name="loan-term">
+                                                <option value="0"></option>
+                                                <option value="1">120</option>
+                                                <option value="2">180</option>
+                                                <option value="3">360</option>
+                                                <option value="4">480</option>
+                                                </select>
+                                            </form>
+                                            <br>
+                                            <br>
+                                            <form action="/submit" method = "post" >
+                                            <div> <button type ="submit"name="action" value="Like"> Submit</button>
+                                            </div>
+                                         <br>
+                                </div>
+                                <footer class="footer">
+                                    <span class="bottom">Loan Approval Prediction by Susan Jessop and Yuly
+                                        Alcantara<c/span>
+                                </footer>
+                            </div>
+                            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                                crossorigin="anonymous"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                                crossorigin="anonymous"></script>
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                                crossorigin="anonymous"></script>
+                            <script src="https://d3js.org/d3.v5.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+                            <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
