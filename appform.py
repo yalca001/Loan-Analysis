@@ -40,14 +40,6 @@ def runmodel(input_data):
     y_predict = rf_model.predict(input_data)
     return y_predict
 
-
-@app.route('/submit', methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        message1 = request.form['Loan Application Form']
-    return render_template('results.html')
-
-
 @app.route('/predictions', methods=['GET', 'POST'])
 def prediction():
     # get user responses of each question from the html form
