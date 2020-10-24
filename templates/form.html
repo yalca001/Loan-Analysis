@@ -21,7 +21,7 @@
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="form.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="navbar-brand" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"> <strong style="color: gray;">Loan Approval Prediction</strong> 
                             </a>
                             <button class="navbar-toggler border border white" type="button" data-toggle="collapse"
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                 </nav>
-                <div class="container" style="padding-bottom: 200px;">
+                <div class="container" style= "background-color: rgb(8, 101, 148); padding-top: 20px; padding-bottom: 10px;">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="loan-approval text-center">
@@ -111,7 +111,7 @@
                                         <h3 class="panel-title" style="color: white;"><strong>Loan Prediction
                                             </strong></h3>
                                         <div class="result">
-                                             <h1> Result from Prediction </h1>
+                                             <h2 style="color: black;"><strong> Result from Prediction </strong></h2>
                                             {% for key, value in result.items() %}
                                            {% if key=='message' %}
                                     <h4>{{value}}</h4>
