@@ -201,22 +201,22 @@
   /*---------------------
    Testimonial carousel
   ---------------------*/
-  $(".testimonial-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 1
-      },
-      900: {
-        items: 1
-      }
-    }
-  });
+  // $(".testimonial-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   responsive: {
+  //     0: {
+  //       items: 1
+  //     },
+  //     768: {
+  //       items: 1
+  //     },
+  //     900: {
+  //       items: 1
+  //     }
+  //   }
+  // });
   /*----------------------------
    isotope active
   ------------------------------ */
