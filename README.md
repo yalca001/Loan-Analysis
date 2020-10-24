@@ -1,4 +1,4 @@
-# Loan-Approval-With-Machine-Learning
+# Loan-Analysis-With-Machine-Learning
 The purpose of this project is to help users to determine their chances of getting a loan. 
 Lending companies normally have presences across various areas such as, urban, semi urban and rural. 
 In order for individuals get the loan, banks have to validate their qualifications for the loans. 
@@ -15,4 +15,7 @@ Machine Learning
 Python/Jupyter Notebook
 Flask App
 Tableau
+
+Team Members;
+Yuly & Susan
               
