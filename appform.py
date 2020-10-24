@@ -31,9 +31,9 @@ def upload_file():
         user_df = pd.DataFrame(data = user_data, index=[1])
         print(user_df)
         
-        scaler = pickle.load(open("scaler_rfloans.sav", 'rb'))
+        scaler = pickle.load(open("Notebook/scaler_rfloans.sav", 'rb'))
         user_scaled = scaler.transform(user_df)
-        rf_model = pickle.load(open('finalized_rfloans.sav', 'rb'))
+        rf_model = pickle.load(open('Notebook/finalized_rfloans.sav', 'rb'))
         user_prediction = rf_model.predict(user_scaled)
 
         print(user_prediction)
@@ -51,9 +51,9 @@ def upload_file():
         }
         print(result)
     
-        return render_template('form.html', result=result)
+        return render_template('form2.html', result=result)
     else:
-        return render_template('form.html', result={})
+        return render_template('form2.html', result={})
 
 
 
