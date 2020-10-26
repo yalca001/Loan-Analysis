@@ -1,4 +1,5 @@
 # Loan-Analysis-With-Machine-Learning
+file:///Users/yulyalcantara/Desktop/Loan-Analysis/templates/index.html
 T
 LOAN APPROVAL PREDICTION
 The purpose of this project is to help users to determine their chances of getting a loan. Lending companies normally have presence across various areas such as, urban, semi urban and rural. In order for individuals to get a loan, banks have to validate their qualifications for the loans. However, doing this process manually can take a lot of time. So, companies and banks try their best to automate the loan eligibility process base on customer (real time) information.
