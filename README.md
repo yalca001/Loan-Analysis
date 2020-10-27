@@ -6,7 +6,9 @@ The purpose of this project is to help users to determine their chances of getti
 
 Banks set eligibility criteria before taking on the risk of extending loans. We have used Machine Learning to predict the risk thus whether an individual would be qualified for the loans.
 
-Therefore, using different characteristics, we examine how reliable is the Machine Learning model to predict whether the lending companies would extend credit to individuals by using Loan Status as the loan indicator, a yes or no. These programing languages were used;
+Therefore, using different characteristics, we examine how reliable is the Machine Learning model to predict whether the lending companies would extend credit to individuals by using Loan Status as the loan indicator, a yes or no. 
+
+These programing languages were used;
 
  Machine Learning
  Python/Jupyter Notebook
