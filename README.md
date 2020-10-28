@@ -11,8 +11,11 @@ Therefore, using different characteristics, we examine how reliable is the Machi
 These programing languages were used;
 
  Machine Learning
+ 
  Python/Jupyter Notebook
+ 
  Flask App
+ 
  Tableau
 
 Team Members;
